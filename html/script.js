@@ -142,7 +142,7 @@ async function startGame() {
     wrongTableEntries = {};
     currentNumber = 1;
     totalWrong = 0;
-    gameEnded = false;
+    gameEnded = true;
     minigame.style.display = 'flex';
     digitalDisplay.innerHTML = "Initialization";
     digitalDisplay.style.color = 'red';
@@ -154,6 +154,7 @@ async function startGame() {
         digitalDisplay.innerHTML = i.toString();
         await sleep(1000)
     }
+    gameEnded = false;
     digitalDisplay.innerHTML = 'Security System Armed';
     startGameTimer();
     startShuffleTimer();
