@@ -1,0 +1,123 @@
+
+.container {
+    font-family: 'Calculator', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    user-select: none;
+    -webkit-touch-callout: none;
+    display: none;
+    background: none;
+}
+
+.innercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 65vh;
+    height: 85vh;
+    border-radius: 5%;
+    background-color: #000000;
+}
+
+.greybg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 60vh;
+    height: 80vh;
+    border-radius: 5%;
+    background-color: #3f3f3f;
+    border: 2px solid #ffffff
+}
+
+.digitaldisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vh;
+    height: 8vh;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2vh;
+    background-color: #b6b6b6;
+    border: 2px solid #000000
+}
+
+.text {
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+    color: red;
+    white-space: nowrap;
+}
+
+.grid {
+    display: grid;
+    gap: 5px;
+    width: 55vh;
+    height: 60vh;
+    margin-top: 1vh;
+    padding: 10px;
+    border-radius: 5%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #b6b6b6;
+    border: 2px solid #000000
+}
+
+.numpad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    width: 90%;
+    height: 90%;
+    border-radius: 25%;
+    box-shadow: 2px 2px 2px 2px rgb(95, 95, 95);
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.scrambletimer {
+    width: 55vh;
+    height: 1vh;
+    margin-top: 10px;
+    border-radius: 2vh;
+    background: linear-gradient(90deg, red, green);
+    border: 2px solid #000000;
+    animation: progressAnimation 5s linear infinite;;
+    direction: rtl;
+    background-size: 200% 100%; /* Double the size for smooth effect */
+}
+
+.maintimer {
+    width: 55vh;
+    height: 1vh;
+    margin-bottom: 10px;
+    border-radius: 2vh;
+    background: linear-gradient(90deg, red, green);
+    border: 2px solid #000000;
+    animation: progressAnimation 5s linear infinite;;
+    direction: rtl;
+    background-size: 200% 100%; /* Double the size for smooth effect */
+}
+
+@keyframes progressAnimation {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+
