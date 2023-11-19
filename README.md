@@ -6,6 +6,12 @@ Join Discord - https://discord.gg/primetimerp
 Put the folder in your resources and start in resources.cfg
 ``ensure Cujion-NumberUp``
 
+## Visuals
+![NumberUp Display](./assets/images/numberupdisplay.png)
+![NumberUp Started](./assets/images/numberupstarted.png)
+![NumberUp Passed](./assets/images/numberuppassed.png)
+![NumberUp Failed](./assets/images/numberupfailed.png)
+
 # How to use export
 
 ```
