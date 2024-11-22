@@ -1,6 +1,4 @@
 # Cujion-NumberUp-Minigame
-
-Join Discord - https://discord.gg/primetimerp
 # Usage
 
 Put the folder in your resources and start in resources.cfg
